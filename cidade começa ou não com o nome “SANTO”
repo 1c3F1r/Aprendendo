@@ -1,3 +1,5 @@
+#ler o nome de uma cidade diga se ela começa ou não com o nome “SANTO”
+
 nome=str(input("nome da cidade:"))
 nome=nome.lower()
 nome=nome.strip()
