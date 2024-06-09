@@ -1,0 +1,6 @@
+nome=str(input("nome da cidade:"))
+nome=nome.lower()
+nome=nome.strip()
+nome1=nome[:5]
+
+print("começa com a palavra <santo> ? = {}".format("santo" in nome1))
